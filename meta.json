@@ -14,5 +14,6 @@
         "title": "Channel History",
         "type": "array"
     }],
+    "icon": "slack",
     "title": "Slack Channel History" /* Required.A display name for the module */
 }
