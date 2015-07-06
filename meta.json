@@ -1,0 +1,18 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    //Required. Inputs the module expects.
+    "inputs": [{
+        "id": "channel_id",
+        "title": "Channel ID",
+        "type": "string"
+    }],
+    //Required. Outputs the module emits.
+    "outputs": [{
+        "id": "channel_history",
+        "title": "Channel History",
+        "type": "array"
+    }],
+    "title": "Slack Channel History" /* Required.A display name for the module */
+}

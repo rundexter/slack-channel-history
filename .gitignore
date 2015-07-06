@@ -1,0 +1,3 @@
+node_modules
+*.sw*
+/fixtures/env.js

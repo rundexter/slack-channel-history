@@ -1,0 +1,19 @@
+{
+  "name": "slack-channel-history",
+  "version": "0.0.1",
+  "description": "Get the message history from a slack channel",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://sinopia:4873"
+  },
+  "author": "Daniel Ilkovich",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.5.0",
+    "restler": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:betaworks/process-modules.git#slack-channel-history"
+  }
+}
