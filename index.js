@@ -8,7 +8,7 @@ module.exports = {
   , run: function(step, dexter) {
       var postData = {
           token     : dexter.environment('slack_app_token') 
-          , channel : step.input('channel_id')
+          , channel : step.input('channel_id').first()
       }
       , url = "https://slack.com/api/channels.history"
       , self = this
