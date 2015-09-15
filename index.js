@@ -15,17 +15,6 @@ module.exports = {
       ;
 
       rest.post(url, { data: postData }).on('complete', function(result, response) {
-          var data = {};
-
-          //_.reduce(result.messages, function(result, message) {
-          //  _.each(['text', 'attachments', 'username', 'bot_id', 'icons.emoji', 'type', 'subtype', 'ts'], function(key) {
-          //      var val = _.get(message, key);
-          //      result[key] = result[key] || [];
-          //      result[key].push(val);
-          //  });
-          //  return result;
-          //}, data);
-
           return self.complete(result.messages);
       });
   }
