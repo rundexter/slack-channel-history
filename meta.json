@@ -10,9 +10,29 @@
     }],
     //Required. Outputs the module emits.
     "outputs": [{
-        "id": "channel_history",
-        "title": "Channel History",
-        "type": "array"
+        "id": "text",
+        "title": "Text",
+        "type": "string"
+    }, {
+        "id": "username", 
+        "title": "Username",
+        "type":"string"
+    }, {
+        "id": "attachments", 
+        "title": "Attachments",
+        "type":"Array"
+    }, {
+        "id": "bot_id", 
+        "title": "Bot ID",
+        "type":"string"
+    }, {
+        "id": "icon", 
+        "title": "Icon",
+        "type":"string"
+    }, {
+        "id": "ts", 
+        "title": "Timestamp",
+        "type":"string"
     }],
     "icon": "slack",
     "title": "Slack Channel History" /* Required.A display name for the module */
