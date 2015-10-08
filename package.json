@@ -6,7 +6,7 @@
   "publishConfig": {
     "registry": "http://sinopia:4873"
   },
-  "author": "Daniel Ilkovich",
+  "author": "Run Dexter, Inc.",
   "license": "MIT",
   "dependencies": {
     "lodash": "^3.5.0",
